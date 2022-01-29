@@ -3,8 +3,14 @@
     padding: 0;
     box-sizing: border-box;
 }
-body {
+body, main, .statContainer, .statBox {
     display: flex;
+    align-items: center;
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
     align-items: center;
     justify-content: center;
     background-color: hsl(185, 75%, 39%);
@@ -32,7 +38,6 @@ main {
     width: 260px;
     height: 299px;
     border-radius: 13px;
-    display: flex;
     flex-direction: column;
     align-items: center;
     overflow: hidden;
@@ -55,21 +60,21 @@ main {
     display: flex;
     justify-content: space-between;
 }
-h1 {
+h1, .number {
     color: hsl(229, 23%, 23%);
     font-size: 14.5px;
     letter-spacing: 0.4px;
 }
-h2 {
+h2, h3 {
     color: hsl(227, 10%, 46%);
-    font-size: 14px;
     font-weight: 400;
+}
+h2 {
+    font-size: 14px;
 }
 h3 {
     margin-top: 6px;
-    color: hsl(227, 10%, 46%);
     font-size: 11px;
-    font-weight: 400;
 }
 hr {
     margin-top: 18px;
@@ -80,18 +85,12 @@ hr {
 .statContainer {
     margin-top: 19px;
     width: 100%;
-    display: flex;
     justify-content: space-evenly;
 }
 .statBox {
-    display: flex;
     flex-direction: column;
-    align-items: center;
 }
 .number {
-    color: hsl(229, 23%, 23%);
-    font-size: 14.5px;
-    letter-spacing: 0.4px;
     font-weight: 900;
 }
 .label {
