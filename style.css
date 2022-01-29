@@ -9,6 +9,23 @@ body {
     justify-content: center;
     background-color: hsl(185, 75%, 39%);
 }
+.wrapper {
+    position: relative;
+}
+.backgroundTop {
+    position: absolute;
+    left: -300%;
+    top: -150%;
+    z-index: -1;
+    opacity: 0.8;
+}
+.backgroundBottom {
+    position: absolute;
+    left: 10%;
+    top: 40%;
+    z-index: -1;
+    opacity: 0.4;
+}
 main {
     margin-top: 100px;
     background-color: white;
@@ -84,17 +101,11 @@ hr {
     letter-spacing: 0.7px;
 }
 
-
-/* Dark cyan: hsl(185, 75%, 39%)
-Very dark desaturated blue: hsl(229, 23%, 23%)
-Dark grayish blue: hsl(227, 10%, 46%)
-
-### Neutral
-
-Dark gray: hsl(0, 0%, 59%)
-
-## Typography
-
-### Body Copy
-
-- Font size (name and stats): 18px */
+@media (min-width: 800px) {
+    main {
+        width: 280px;
+    }
+    .cardImg {
+        width: 100%;
+    }
+}
