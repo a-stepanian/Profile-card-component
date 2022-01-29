@@ -10,9 +10,13 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
   - [What I learned](#what-i-learned)
 
 ## Screenshot
+### Desktop
 
-![](./screenshots/screenshot.jpg)
-![](./screenshots/mobile.jpg)
+![](./screenshots/screenshot.JPG)
+
+### Mobile
+
+<img width="250px" src="./screenshots/mobile.jpg">
 
 ## My process
 
